@@ -1,0 +1,17 @@
+ <!-- PROJECTS-->
+ 
+<div class="row my-4">
+    <div class="col-sm-12">
+        <h2>Projects</h2>
+        <hr>
+    </div> 
+    {% for item in FAKE_DB_PROJECTS %}
+    <div class="col-sm col-6 mb-1">
+        <img src="{{ item }}" alt=""
+        class="w- img-thumbnail">
+    </div>
+    {% empty %}
+    <h3 class="text-danger">Projects Not Found</h3>
+    {% endfor %}    
+    
+</div>
