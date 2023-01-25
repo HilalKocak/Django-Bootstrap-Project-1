@@ -1,9 +1,9 @@
 from django.urls import path
 from .views import ( # we can use . to represent this dir (views in this dir)
     home_view,
-    about_us_view,
-    contact_us_view,
-    vision_view,
+    #about_us_view,
+    #contact_us_view,
+    #vision_view,
     page_view,
    # page_slug_learn,
     )

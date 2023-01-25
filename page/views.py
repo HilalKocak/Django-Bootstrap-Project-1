@@ -28,34 +28,34 @@ def home_view(request):
     context["FAKE_DB_CAROUSEL"] = FAKE_DB_CAROUSEL
     return render(request, "page/homepage.html", context)
 
-def about_us_view(request):
-    page_title = "About"
-    hero_content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus, ante eget venenatis lobortis, metus diam porta velit, vel dictum sapien sapien quis leo. Cras nec lobortis erat, nec eleifend ex. Vestibulum quis dolor sed diam mollis tincidunt. Praesent ac mauris et ligula consequat egestas ac a mauris. Sed at lobortis ante. Cras tempus felis id metus suscipit, eget semper mi efficitur. Nam ultricies lobortis justo nec varius."
-    context =dict(page_title=page_title,
-    hero_content = hero_content,
-    # FAKE_DB_PROJECTS = FAKE_DB_PROJECTS,
-    )
-    return render(request, "page/about_us.html", context)
+# def about_us_view(request):
+#     page_title = "About"
+#     hero_content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus, ante eget venenatis lobortis, metus diam porta velit, vel dictum sapien sapien quis leo. Cras nec lobortis erat, nec eleifend ex. Vestibulum quis dolor sed diam mollis tincidunt. Praesent ac mauris et ligula consequat egestas ac a mauris. Sed at lobortis ante. Cras tempus felis id metus suscipit, eget semper mi efficitur. Nam ultricies lobortis justo nec varius."
+#     context =dict(page_title=page_title,
+#     hero_content = hero_content,
+#     # FAKE_DB_PROJECTS = FAKE_DB_PROJECTS,
+#     )
+#     return render(request, "page/about_us.html", context)
 
-def contact_us_view(request):
-    page_title = "Contact"
-    hero_content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus, ante eget venenatis lobortis, metus diam porta velit, vel dictum sapien sapien quis leo. Cras nec lobortis erat, nec eleifend ex. Vestibulum quis dolor sed diam mollis tincidunt. Praesent ac mauris et ligula consequat egestas ac a mauris. Sed at lobortis ante. Cras tempus felis id metus suscipit, eget semper mi efficitur. Nam ultricies lobortis justo nec varius."
-    context =dict(page_title=page_title,
-    hero_content = hero_content,
-    # FAKE_DB_PROJECTS = FAKE_DB_PROJECTS,
+# def contact_us_view(request):
+#     page_title = "Contact"
+#     hero_content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus, ante eget venenatis lobortis, metus diam porta velit, vel dictum sapien sapien quis leo. Cras nec lobortis erat, nec eleifend ex. Vestibulum quis dolor sed diam mollis tincidunt. Praesent ac mauris et ligula consequat egestas ac a mauris. Sed at lobortis ante. Cras tempus felis id metus suscipit, eget semper mi efficitur. Nam ultricies lobortis justo nec varius."
+#     context =dict(page_title=page_title,
+#     hero_content = hero_content,
+#     # FAKE_DB_PROJECTS = FAKE_DB_PROJECTS,
 
-    )
-    return render(request, "page/contact_us.html", context)
+#     )
+#     return render(request, "page/contact_us.html", context)
 
-def vision_view(request):
-    page_title = "Vision"
-    hero_content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus, ante eget venenatis lobortis, metus diam porta velit, vel dictum sapien sapien quis leo. Cras nec lobortis erat, nec eleifend ex. Vestibulum quis dolor sed diam mollis tincidunt. Praesent ac mauris et ligula consequat egestas ac a mauris. Sed at lobortis ante. Cras tempus felis id metus suscipit, eget semper mi efficitur. Nam ultricies lobortis justo nec varius."
-    context =dict(
-        page_title=page_title,
-        hero_content = hero_content,
-        # FAKE_DB_PROJECTS = FAKE_DB_PROJECTS,
-        )
-    return render(request, "page/vision.html", context)   
+# def vision_view(request):
+#     page_title = "Vision"
+#     hero_content= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus, ante eget venenatis lobortis, metus diam porta velit, vel dictum sapien sapien quis leo. Cras nec lobortis erat, nec eleifend ex. Vestibulum quis dolor sed diam mollis tincidunt. Praesent ac mauris et ligula consequat egestas ac a mauris. Sed at lobortis ante. Cras tempus felis id metus suscipit, eget semper mi efficitur. Nam ultricies lobortis justo nec varius."
+#     context =dict(
+#         page_title=page_title,
+#         hero_content = hero_content,
+#         # FAKE_DB_PROJECTS = FAKE_DB_PROJECTS,
+#         )
+#     return render(request, "page/vision.html", context)   
 
 
 def page_view(request, slug):
