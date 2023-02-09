@@ -1,6 +1,17 @@
-# This project is web application with Django
+# This project is corporate website with Django
 
-Project Structure
+## Static Corporate Website Project with FAKE_DB
+ - The goal of the project is to develop a Django project with more than one module (App).
+ - Understanding Django Template Language(DTL)
+ - Working with static files
+ - Using the feature with DTL extends
+ - Creating modular HTML structure with DTL include
+ - Creating Our Own Context Processor and Sending Data to Project
+ - Understanding URL structure
+ - Working with SLUG
+ - Creating multiple detail pages and product pages with Fake Data without using DB infrastructure
+
+### Project Structure
 ```
 .
 ├── README.md
@@ -72,6 +83,11 @@ Python 3.11.0
 
 ## You can install packages with
 pip install -r requirements.txt
+
+## Creating superuser
+python manage.py createsuperuser
+
+NOTE: The password does not appear on the screen while being entered. Please ensure that you enter your password correctly.
 
 ## You can run the project with
 python manage.py runserver
